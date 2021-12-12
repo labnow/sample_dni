@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>filter:</h1>
+    {% for nt_id, nt_name in distinct_nt_id.items() %}
+        <a href="/show_data/{{nt_id}}">{{nt_name}}</a>
+    {% endfor %}
+    <h1>Showing all records of {{nt_id}}</h1>
+    {% for key, value in data_insight.items() %}
+    <h3>{{value|length}} {{key}}, they are {{value}}</h3>
+    {% endfor %}
+    <table>
+        <tr>
+            <th>row number</th>
+            {% for item in data_header %}
+                <th>{{item}}</th>
+            {% endfor %}
+        </tr>
+        {% for key, value in data_for_jinja.items() %}
+        <tr>
+            <td>{{key}}</td>
+            {% for item in value %}
+                <td>{{item}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock %}

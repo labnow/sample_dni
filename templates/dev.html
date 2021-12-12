@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>alpha</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h2>Routes</h2>
+    <p>+---/</p>
+    <p>+---/dev</p>
+    <p>+---/show_data</p>
+    <p>|---/show_data/engineerName/month</p>
+    <p>+---/excel/downloadAll</p>
+    <p>|---/excel/effort/engineerName/month</p>
+    <p>|---/excel/travel/engineerName/month</p>
+    <p>|---/summary/travel/month</p>
+    <p>|---/summary/effort/month</p>
+    <p>+---/delete/record_id --> TODO</p>
+    <p>+---/update/record_id --> TODO</p>
+    <p>+---/pivot/travel/month</p>
+    <p>+---/new_record</p>
+</div>
+<br>
+<div class="content">
+    <h2>TODOs</h2>
+    <p>&#10003---bind mount /app/output to /11-VM/audi/output</p>
+    <p>x---replace sqlite with mySQL</p>
+    <p>x---Registe image to ghcr</p>
+</div>
+<br>
+<div class="content">
+    <h2>Version History</h2>
+    <p>v 1.0.0<br>1. Nothing New</p>
+    <p>V 1.1.0<br>1. Add /new_record<br>2. Add /dev<<br>3. Make /persist as mount point<p>
+</div>
+{% endblock %}

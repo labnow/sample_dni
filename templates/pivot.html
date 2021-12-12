@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Pivot</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h2>suffix month to this url '/pivot/travel/'', paste to address bar and go</h2>
+    <h3>Examples:</h3>
+    <a href="/pivot/travel/07">~/pivot/tavel/07</a>
+    <br>
+    <a href="/pivot/travel/08">~/pivot/tavel/08</a>
+    <br><br>
+    <form method="POST">
+        <input type="submit" value="Downlaod Excel report of below data">
+    </form>
+    <br>
+    {% if filename %}
+        {% include filename %}
+    {% else %}
+        <p>No records found</p>
+    {% endif %}
+</div>
+{% endblock %}
+

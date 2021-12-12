@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>New record</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <p>csv template can be found in /app/persist/uplods<br>encoding should be utf-8</p>
+    <h3>New excel to track..</h3>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="form-name" value="many">
+        <label for="sheet_name">sheet_name:</label>
+        <input type="text" name="sheet_name" required><br>
+        <label for="header_row">header_row:</label>
+        <input type="text" name="header_row" required><br>
+        <label for="data_start_from_row">data_start_from_row:</label>
+        <input type="text" name="data_start_from_row" required><br>
+        <label for="data_end_at_row">data_end_at_row:</label>
+        <input type="text" name="data_end_at_row" required><br>
+        <label for="column_start">column_start:</label>
+        <input type="text" name="column_start" required><br>
+        <label for="column_end">column_end:</label>
+        <input type="text" name="column_end" required><br>
+        <label for="base_month">base_month:</label>
+        <input type="date" name="base_month" required><br>
+        <input type="file" name="file" accept=".xlsx" required><br><br>
+        <input type="submit" value="Add many records">
+    </form>
+</div>
+{% endblock %}
+

@@ -1,0 +1,373 @@
+package,date,engineerName,startTime,endTime,workingHours,overtime,location,worklog
+,2021-07-26,Zhao Wenlong,9:00:00,17:30:00,8,0,MA/ACB,"1、055试验车软件刷写、车辆状态确认、Rear view测试
+2、Audi软件安装流程推动"
+,2021-07-27,Zhao Wenlong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-28,Zhao Wenlong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-29,Zhao Wenlong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-30,Zhao Wenlong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-08-02,Zhao Wenlong,8:40:00,17:30:00,8,0,MA/ACB,"1、Audi card apply for everyone 100%
+2、Paco channle code Reading for A+SUVe  EF055  and check the marked adaption is set to automatisch  100%;
+3、A6L issue meeting and need to analysis the signal for question , finshed the work next week. 30%
+4、workshop  for C-BEV rifitting with SW&ZDC flashing 80%
+5、RT & RT Range meeting 100%
+6、test results review with CANape for A6LMA driving 505"
+,2021-08-03,Zhao Wenlong,8:50:00,17:30:00,8,0,MA/ACB,
+,2021-08-04,Zhao Wenlong,8:48:00,17:30:00,8,0,MA/ACB,
+,2021-08-05,Zhao Wenlong,8:45:00,17:35:00,8,0,MA/ACB,
+,2021-08-06,Zhao Wenlong,8:45:00,17:30:00,8,0,MA/ACB,
+,2021-08-09,Zhao Wenlong,8:40:00,17:30:00,8,0,MA/ACB,"1、A6L from Tianjing to Beijing, the transportation is over.
+2、contact the SVW&FAW  parking test engineers will be have a skype meeting about review the test plan 30%;
+with Xi Jianpo talk about the Parking test plan 90%
+3、C-BEV status conform and check 50%
+4、meeting with fonction owner talk about the A7L RPA test plan and go to the shanghai SVW 70%
+5、writing report of rear view test of A+SUV 100%
+6、jion the A7L RPA meeting every day
+"
+,2021-08-10,Zhao Wenlong,8:50:00,17:30:00,8,0,MA/ACB,
+,2021-08-11,Zhao Wenlong,8:48:00,17:30:00,8,0,MA/ACB,
+,2021-08-12,Zhao Wenlong,8:45:00,17:35:00,8,0,MA/ACB,
+,2021-08-13,Zhao Wenlong,8:45:00,17:30:00,8,0,MA/ACB,
+,2021-08-16,Zhao Wenlong,8:40:00,17:30:00,8,0,MA/ACB,"1、A7L VZE function testing in tianjin 100%:
+2、MLB parking testing meeting of cluster 3.3 with tickets，disscuss how to test the tickets cases 50%;
+3、A7L parking testing in shanghai and correctly the work of Bosch engineer 100%;
+
+"
+,2021-08-17,Zhao Wenlong,8:50:00,17:30:00,8,0,MA/ACB,
+,2021-08-18,Zhao Wenlong,8:48:00,17:30:00,8,0,MA/ACB,
+,2021-08-19,Zhao Wenlong,9:00:00,22:00:00,12.5,4.5,MA/ACB,
+,2021-08-20,Zhao Wenlong,8:00:00,19:00:00,10,2,MA/ACB,
+,2021-08-21,Zhao Wenlong,8:00:00,19:00:00,4,4,MA/ACB,
+,2021-08-23,Zhao Wenlong,8:40:00,17:30:00,8,0,MA/ACB,"1、cluster 3.3 parking test preparation with xijianpo;
+2、A6L MA parking test preparation with xijianpo;
+3、C SUV parking test meeting about how to test the function;
+4、Finding the vehicle that the IPA function is ok and  try to do it .
+
+"
+,2021-08-24,Zhao Wenlong,8:50:00,17:30:00,8,0,MA/ACB,
+,2021-08-25,Zhao Wenlong,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-26,Zhao Wenlong,8:45:00,17:30:00,8,0,MA/ACB,
+,2021-08-27,Zhao Wenlong,8:40:00,17:30:00,8,0,MA/ACB,
+,2021-07-26,Wang Penglong,9:00:00,17:30:00,8,0,MA/ACB,"1、AUDI电脑，门禁卡领取，配置；
+2、文档阅读及学习。"
+,2021-07-27,Wang Penglong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-28,Wang Penglong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-29,Wang Penglong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-30,Wang Penglong,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-08-02,Wang Penglong,8:38:00,17:31:00,8,0,MA/ACB,"1.Read driving test cases, include ACC, EA, ACA, aLDW, Completed 15%:
+MEB_ACC_Test Catalog_China
+Test_Specification_MEB_EA_1.1
+MEB_ACA_Test catalog_China
+aLDW_TC_SVW
+2.Read MFK5-PED test cases, filtered out domestic test cases, Attended the weekly meeting held by WangShuai. Competed 100% (the first stage).
+3.Completed the office computer and the employee card related work."
+,2021-08-03,Wang Penglong,8:26:00,17:32:00,8,0,MA/ACB,
+,2021-08-04,Wang Penglong,8:34:00,17:35:00,8,0,MA/ACB,
+,2021-08-05,Wang Penglong,8:42:00,17:28:00,8,0,MA/ACB,
+,2021-08-06,Wang Penglong,8:35:00,17:30:00,8,0,MA/ACB,
+,2021-08-09,Wang Penglong,8:28:00,17:31:00,8,0,MA/ACB,"1.Read driving test cases, include ACC, EA, ACA, aLDW, Completed 60%:
+MEB_ACC_Test Catalog_China
+Test_Specification_MEB_EA_1.1
+MEB_ACA_Test catalog_China
+aLDW_TC_SVW
+2.Assist Jiwei to complete the vehicle transportation procedures from Beijing to Shanghai, completed 100%.
+"
+,2021-08-10,Wang Penglong,8:23:00,17:36:00,8,0,MA/ACB,
+,2021-08-11,Wang Penglong,8:31:00,17:28:00,8,0,MA/ACB,
+,2021-08-12,Wang Penglong,8:27:00,17:34:00,8,0,MA/ACB,
+,2021-08-13,Wang Penglong,8:21:00,17:20:00,8,0,MA/ACB,
+,2021-08-18,Wang Penglong,8:21:00,17:20:00,8,0,MA/ACB,
+,2021-08-19,Wang Penglong,8:21:00,17:20:00,8,0,MA/ACB,
+,2021-07-26,Hu Naitao,9:00:00,17:30:00,8,0,MA/ACB,"1、在天津开展A7L的ACC、aLDW、ACA、LIM功能的实际道路试验，每项功能测试里程150km；
+2、掌握了测试设备的安装（ADAS功能FlexRay通信、仪表板监控摄像头、前向监控摄像头），CANape数据的采集和分析；
+3、A7L的ADAS功能报错，无法继续试验，试验提前结束，周五返京。"
+,2021-07-27,Hu Naitao,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-28,Hu Naitao,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-29,Hu Naitao,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-07-30,Hu Naitao,9:00:00,17:30:00,8,0,MA/ACB,
+,2021-08-02,Hu Naitao,8:30:00,17:30:00,8,0,MA/ACB,"1. I have written and modified test cases about MOD and PED modules of MFK5, and added 42 kinds of  revelent test cases of EU-NCAP AEB_C2C and AEB_PED scenarios. 60% done;
+2. The china parts of measurement equipments of MFK5 have been prepared to send to Germany on Augest 20. Q8 windshield that installed camera will be back to China before National Day. 20% done.
+3. I have adjusted test route according to MOD and PED test cases to satisfy Chinese condition requests. 12 kinds of test cases are added. 60% done.
+4. Based on the data of C-NCAP, I learn about data collection, data analysis by CANape software. 20% done.
+5. Because of COVID-19  pandemic, traveling to Tianjin AVL is canceled."
+,2021-08-03,Hu Naitao,8:26:00,17:30:00,8,0,MA/ACB,
+,2021-08-04,Hu Naitao,8:30:00,17:34:00,8,0,MA/ACB,
+,2021-08-05,Hu Naitao,8:36:00,17:31:00,8,0,MA/ACB,
+,2021-08-06,Hu Naitao,8:40:00,17:30:00,8,0,MA/ACB,
+,2021-08-09,Hu Naitao,8:36:00,17:30:00,8,0,MA/ACB,"1. I have written and modified test cases about MOD and PED modules of MFK5, and added the status of TCs to show if it can be available in China. Each TC was found multi chinese scenario photos to satisfy further road test. 65% done;
+2. I have learned about project configuration data collection, data analysis of CANape software. 50% done;
+3. I have test the questions of OPS and Rear View modules of A+SUVe, and collected data each condition. 100% done."
+,2021-08-10,Hu Naitao,8:40:00,17:30:00,8,0,MA/ACB,
+,2021-08-11,Hu Naitao,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-12,Hu Naitao,8:34:00,17:30:00,8,0,MA/ACB,
+,2021-08-13,Hu Naitao,8:20:00,17:30:00,8,0,MA/ACB,
+,2021-08-16,Hu Naitao,8:30:00,17:30:00,8,0,MA/ACB,"1. According to the requirement of Audi Germany, two states of the test cases, Add in China and Modify in China, are retained. And TCs which can be tested in Germany are deleted. 70% done;
+2. Applying for installing the test software with audi's PC and setting up the Germany VPN;
+3. Traveling to Tianjin to test the VZE function of A7L, including SL, cancellation of SL, no-overtaking and cancellation of no-overtaking. there are 12 test problems found. 100% done."
+,2021-08-17,Hu Naitao,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-18,Hu Naitao,8:23:00,17:34:00,8,0,MA/ACB,
+,2021-08-19,Hu Naitao,8:20:00,18:00:00,8,0,MA/ACB,
+,2021-08-20,Hu Naitao,8:00:00,19:00:00,8,0,Tianjin,
+,2021-08-21,Hu Naitao,7:00:00,11:00:00,4,4,TJ to BJ,
+,2021-08-23,Hu Naitao,8:36:00,17:30:00,8,0,MA/ACB,"1. According to the requirement of Audi Germany, two states of the test cases, Add in China and Modify in China, are retained. And TCs which can be tested in Germany are deleted. 100% done;
+2. TCs are added chinese relevent ADAD/AD standards and protocols. 32 kinds of TCs from C-NCAP/C-IASI/CCRT/GBT are being written. 30% done;
+3. send test equipments of MFK5 with Wang Shuai to Germany to install the rest of hardware and debug them. 100% done."
+,2021-08-24,Hu Naitao,8:40:00,17:30:00,8,0,MA/ACB,
+,2021-08-25,Hu Naitao,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-26,Hu Naitao,8:34:00,17:30:00,8,0,MA/ACB,
+,2021-08-27,Hu Naitao,8:20:00,17:30:00,8,0,MA/ACB,
+,2021-07-26,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,1. 自行继续修改其他几个功能文档
+,2021-07-27,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-07-28,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-07-29,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-07-30,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-02,Yang Xueying,8:18:00,17:30:00,8,0,MA/ACB,"1. From Monday to Thursday morning continue to work with functions RPE, WLA, HZD, which are regarded as low priority. This means that the functions have been carefully read and put in order. It was also found that the appropriate test cases were carried out. A few more questions were assigned to this. (100%)
+2. On Thursday from 10:30 to 11:30 a conference with Shuai, Naitao, Penglong and Wenlong was held. The aim of this conference is to:
+a. determine the structure of the Weekly Meeting. The focus is on who is responsible for which tasks and how much time should be used for each task. Since there is currently no access to both Jira and Confluence, Excel is used to determine the task assignment. 
+b. notificate the status of the PO Measurement Equipment.
+b.1. Shipping the equipment from China to Germany. Shuai told us that until last Friday he had clearly spoken to others about how to declare customs and who is responsible for cost estimates. The dispatch of this attachment is delaying it. The attachments will not be sent until August 20th. Shuai occupied himself with this task. On the CW33 (Bosch CW34), determine the type of dispatch of the system and sign the dispatch contract. 
+b.2. The test vehicle (Q8) will be finished between mid-October and mid-November. (With a 2-week buffer, Audi DE had already tuned two vehicles). PS: Some MFK5 modules should be mounted on the windshield of the Q8, so the special windshield must be ordered. Unfortunately, the small series produced in Germany cannot pass the 3c certification, which is why the relevant exact time of the delivery of the test vehicle cannot be determined. 
+c. share the information about Data Solution. Audi, a foreign company, does not have a trial license on the Chinese roads. It must be guided by other providers with licences.  
+c.1. LH for Magna- Currently Magna CN work with Kotel at the moment
+c.2. LH CN- not yet determined but 3 tendency options: work with RG, work with Magna LH, sigh a LH for MFK5.
+d. check the status of Test Cases. 
+d.1. Xueying with Shuai: the test form will be determined during the conference. Bench tests are no longer carried out. In addition to the road test, the test station will be built later according to demand
+d.2. Xueying with Shuai: the corresponding test cases on bench can simply be carried over.
+d3. Xueying with Shuai: the latest version of the MFK5 document will be checked by Shuai with Audi DE as soon as possible.
+d4. Xueying with Shuai: determine the road test will in Tianjin, Shanghai, Guangzhou, Chengdu, Chongqing and some Big Cities which are closed to Yangtze River Delta or Pearl River Delta. 
+d5. Penglong suggested that a tunnel in Yizhuang can be used for simulating the weather (e.g. rain, fog and light radiation). 
+e. next step
+e1. Xueying: on the basis of C-NCAP, the relevant test cases with photos from Baidu Street View will be added.  
+e2. Xueying and Naitao: put all strange and false points in document in order.
+3. on Thursday and Friday searched the relevant C-NAP (which with the relevant fotos) and added the test case for functions LDA and TSR which suitable for china road (40%) "
+,2021-08-03,Yang Xueying,8:23:00,17:32:00,8,0,MA/ACB,
+,2021-08-04,Yang Xueying,11:06:00,17:32:00,5.5,-2.5,MA/ACB,
+,2021-08-05,Yang Xueying,8:24:00,17:32:00,8,0,MA/ACB,
+,2021-08-06,Yang Xueying,7:20:00,17:10:00,8,0,MA/ACB,
+,2021-08-09,Yang Xueying,8:18:00,17:33:00,8,0,MA/ACB,"1. From this Montag to Wednesday afternoon continue to work with the review of the test cases using the CNAP. This means that you have to determine which cases can be used in China, which cannot be and which will continue to be checked. Several Test Cases are added together at the same time. Currently existing Test Cases are filtered according “can be carried over?” to 3 types - Yes, No and Unknown-  and marked with different fill colors. (60%)
+2. Between 3 p.m. and 4 p.m. this Wednesday, a conference with Shuai and Naitao took place, where the following topics were discussed:
+a. @Shuai: He had tried many times to export documents from Dols. But unfortunately it doesn't work. The Confluence test scenarios were forgotten again.
+b. @All: Conference with DE at 2.30 p.m. next Monday. Before the Conference LDA, TSR, PED and MOD are checked during a Meeting on Monday morning.
+c. @Naitao and Xueying: 4 filters of ""n be carried over?"" - Yes, no, still must be checked, added again - must be plugged into the Excel file. Furthermore there is the need of adding pictures with notes in Excel. 
+d. @Naitao: the shapes of the objects must still be considered. E.g. size of pedestrian and types of two-wheelers. The difference in the objects between CN and DE must not be neglected. Each test case should be written together with different test objectives.
+e. From Wednesday to Sunday continue to work with the review of the test cases using the CNAP. (See 1 und 2c) (80%))s"
+,2021-08-10,Yang Xueying,8:00:00,17:36:00,8,0,MA/ACB,
+,2021-08-11,Yang Xueying,7:58:00,17:18:00,8,0,MA/ACB,
+,2021-08-12,Yang Xueying,8:12:00,17:30:00,8,0,MA/ACB,
+,2021-08-13,Yang Xueying,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-14,Yang Xueying,16:00:00,18:14:00,2.233,2,Working from home,
+,2021-08-15,Yang Xueying,14:20:00,21:47:00,7.117,7,Working from home,
+,2021-08-16,Yang Xueying,8:25:00,17:33:00,10.13,1,MA/ACB,"1. On Monday morning a short meeting was with Shuai and Naitao held. The state of the work of us was checked. Monday afternoon was a Meeting with Johannes, Shuai and Naitao held. Man focuses on the cases that can be simply carried over on China no more. The Test cases should in 2 parts (modified and added in China) rewrite.
+2. On Wednesday regular meeting: checked the excel-file.
+3. LDA and TSR rewrite and with the corresponding Signal review. (for further work is Confluence and Share Folder necessary)"
+,2021-08-17,Yang Xueying,7:55:00,17:36:00,8,0,MA/ACB,
+,2021-08-18,Yang Xueying,8:07:00,17:11:00,8,0,MA/ACB,
+,2021-08-19,Yang Xueying,7:50:00,17:15:00,8,0,MA/ACB,
+,2021-08-20,Yang Xueying,7:13:00,17:00:00,8,0,MA/ACB,
+,2021-08-21,Yang Xueying,13:00:00,17:30:00,4,4,Working from home,
+,2021-08-23,Yang Xueying,8:15:00,17:30:00,8,0,MA/ACB,"1. TSR further rewrite and check the signal between Monday to wednesday (for further work is Confluence and Shared Folder necessary)
+2. a short meetig with Shuai and Naitao on Wednesday:  the test cases description, precondition and action should be writed according to policies and regulations, which will be checked on next Tuesday
+3.  find the relevant standard, polices and regulations files, but failed (no files for TSR camera function standard found.
+4. rewrite and review TSR and LDA
+"
+,2021-08-24,Yang Xueying,8:30:00,19:34:00,10,2,MA/ACB,
+,2021-08-25,Yang Xueying,8:44:00,19:07:00,9,1,MA/ACB,
+,2021-08-26,Yang Xueying,8:35:00,19:49:00,10,2,MA/ACB,
+,2021-08-27,Yang Xueying,9:18:00,18:44:00,9,1,MA/ACB,
+,2021-08-28,Yang Xueying,9:50:00,19:20:00,9,9,Working from CICV,
+,2021-08-02,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,"1. 100% of the 5 chapters of the original PPE document revision definition have been completed using codebeamer.
+2. New PPE scenario additions and definitions next week	."
+,2021-08-03,Yan Shujuan,8:57:00,18:10:00,8,0,MA/ACB,
+,2021-08-04,Yan Shujuan,8:53:00,18:10:00,8,0,MA/ACB,
+,2021-08-05,Yan Shujuan,8:51:00,18:10:00,8,0,MA/ACB,
+,2021-08-06,Yan Shujuan,8:35:00,18:10:00,8,0,MA/ACB,
+,2021-08-09,Yan Shujuan,8:30:00,18:10:00,8,0,MA/ACB,"1.PPE document test scenario definition preparation and drawing，complete 10 items
+2.Sorting out the test parameters of the PPE document is completed ，and adjustment of PPE document format has been completed
+3.Reading and understanding of PPE dynamic objects of PPE"
+,2021-08-10,Yan Shujuan,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-11,Yan Shujuan,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-12,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-13,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-16,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,"1.The definition of dynamic object scene  in PPE，written with codebeamer ，and adjust parameters and define chapters，9 items have been completed.
+2.TOP VIEW requirements interpretation：
+Fkt- LAH TopView_High_Customer_Function translation 1984 lines，completed."
+,2021-08-17,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-18,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-19,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-20,Yan Shujuan,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-23,Yan Shujuan,8:30:00,18:10:00,8,0,MA/ACB,"1. The remaining 4 requirements documents of TV have been translated
+2.TOPVIEW_ BV_ Lah review completes 300 lines and combs them with XMIND."
+,2021-08-24,Yan Shujuan,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-25,Yan Shujuan,8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-26,Yan Shujuan,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-27,Yan Shujuan,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-30,Yan Shujuan,8:30:00,18:10:00,8,0,BOSCH/sgh,"1. TV's BV_LAH image processing 2.0 module requirements and customer features requirements have been reviewed
+2. TV's image processing requirements review in progress		"
+,2021-08-31,Yan Shujuan,8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-01,Yan Shujuan,8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-02,Yan Shujuan,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-03,Yan Shujuan,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-02,Ding Xiuju,8:39:00,17:52:00,8,0,BOSCH/sgh,"1. 353 documents of review001 Activation logic
+2. Communicate with Audi personnel and document statistics
+3. the next week plan ： continue to check 001 Activation logic "
+,2021-08-03,Ding Xiuju,8:48:00,17:48:00,8,0,BOSCH/sgh,
+,2021-08-04,Ding Xiuju,8:40:00,17:43:00,8,0,BOSCH/sgh,
+,2021-08-05,Ding Xiuju,8:36:00,19:40:00,8,1,BOSCH/sgh,
+,2021-08-06,Ding Xiuju,8:30:00,17:30:00,8,0,BOSCH/sgh,
+,2021-08-09,Ding Xiuju,8:31:00,17:46:00,8,0,BOSCH/sgh,"1、Communicate with Audi engineers, make statistics table, review document statistics
+2、review003detection document
+3 next week plan to continue to check 003detection documents"
+,2021-08-10,Ding Xiuju,8:42:00,17:45:00,8,0,BOSCH/sgh,
+,2021-08-11,Ding Xiuju,8:38:00,17:45:00,8,0,BOSCH/sgh,
+,2021-08-12,Ding Xiuju,8:45:00,21:45:00,8,3,BOSCH/sgh,
+,2021-08-13,Ding Xiuju,8:41:00,17:30:00,8,0,BOSCH/sgh,
+,2021-08-16,Ding Xiuju,8:41:00,17:52:00,8,0,BOSCH/sgh,"1、complete the check 003detection document 120 lines and start the check 008ops document, 008 document by checking 187 lines
+2、 Next week continue to check 008ops file	"
+,2021-08-17,Ding Xiuju,8:47:00,17:53:00,8,0,BOSCH/sgh,
+,2021-08-18,Ding Xiuju,8:44:00,17:44:00,8,0,BOSCH/sgh,
+,2021-08-19,Ding Xiuju,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-20,Ding Xiuju,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-23,Ding Xiuju,8:30:00,17:30:00,8,0,MA/ACB,"1. Check and modify the 6 documents in the capa document in cplace and check and modify whether all the connections in the capa are correct
+2. Line 267 of the review008ops document
+3. Continue to check the 008 document next week"
+,2021-08-24,Ding Xiuju,8:30:00,17:30:00,8,0,MA/ACB,
+,2021-08-25,Ding Xiuju,8:30:00,17:30:00,8,0,BOSCH/sgh,
+,2021-08-26,Ding Xiuju,8:30:00,17:30:00,8,0,BOSCH/sgh,
+,2021-08-27,Ding Xiuju,8:30:00,17:30:00,8,0,BOSCH/sgh,
+,2021-08-30,Ding Xiuju,8:30:00,18:10:00,8,0,BOSCH/sgh,"1、review008ops document
+2、next Monday continue to check 008 document"
+,2021-08-31,Ding Xiuju,8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-01,Ding Xiuju,8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-02,Ding Xiuju,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-03,Ding Xiuju,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-02,"Wang Xuelian/
+Jiang Hemin",8:45:00,18:01:00,8,0,BOSCH/sgh,"1.Review requirements[001_Activation_logic],369 requirements
+2.next week plan: document review and translation"
+,2021-08-03,"Wang Xuelian/
+Jiang Hemin",8:57:00,18:05:00,8,0,BOSCH/sgh,
+,2021-08-04,"Wang Xuelian/
+Jiang Hemin",8:53:00,18:08:00,8,0,BOSCH/sgh,
+,2021-08-05,"Wang Xuelian/
+Jiang Hemin",8:51:00,18:45:00,8,0,BOSCH/sgh,
+,2021-08-06,"Wang Xuelian/
+Jiang Hemin",8:56:00,18:04:00,8,0,BOSCH/sgh,
+,2021-08-09,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,"1、Communicate with Audi engineers, make statistics table, review document statistics
+2、review003detection document
+3 next week plan to continue to check 003detection documents"
+,2021-08-10,"Wang Xuelian/
+Jiang Hemin",8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-11,"Wang Xuelian/
+Jiang Hemin",8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-12,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-13,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-16,"Wang Xuelian/
+Jiang Hemin",8:50:00,18:10:00,8,0,BOSCH/sgh,"1、Check 003detection document 120 lines and start to check 008ops document, 008 document by checking 187 lines
+2、Next week continue to check 008ops file	"
+,2021-08-17,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-18,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-19,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-20,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-23,"Wang Xuelian/
+Jiang Hemin",8:30:00,18:10:00,8,0,BOSCH/sgh,"1、review008ops document
+2、next week continue to check 008 document"
+,2021-08-24,"Wang Xuelian/
+Jiang Hemin",8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-25,"Wang Xuelian/
+Jiang Hemin",8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-26,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-27,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-30,"Wang Xuelian/
+Jiang Hemin",8:30:00,18:10:00,8,0,BOSCH/sgh,"1、review008ops document
+2、next week continue to check 008 document，and begin to understand CAPA functional requirements"
+,2021-08-31,"Wang Xuelian/
+Jiang Hemin",8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-01,"Wang Xuelian/
+Jiang Hemin",8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-02,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-03,"Wang Xuelian/
+Jiang Hemin",8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-02,Zhang Ran/Dai Fang,8:55:00,17:40:00,8,0,MA/ACB,"1、Read the CAPA document, and modify the Xmind file, complete 50%.
+2、Extract the requirements related to obstacle detection from the PPE OPS，APS documents, complete 10%.
+3、Meet with Audi engineers to discuss OPS, APS functional requirements and test case writing format."
+,2021-08-03,Zhang Ran/Dai Fang,8:57:00,17:40:00,8,0,MA/ACB,
+,2021-08-04,Zhang Ran/Dai Fang,8:53:00,17:40:00,8,0,MA/ACB,
+,2021-08-05,Zhang Ran/Dai Fang,8:40:00,17:40:00,8,0,MA/ACB,
+,2021-08-06,Zhang Ran/Dai Fang,8:50:00,17:40:00,8,0,MA/ACB,
+,2021-08-09,Zhang Ran/Dai Fang,8:30:00,18:10:00,8,0,MA/ACB,"Edit the IPA China specific test case in CodeBeamer.
+Edit 29 information and 30 test cases, modify 16 test cases."
+,2021-08-10,Zhang Ran/Dai Fang,8:46:00,17:40:00,8,0,MA/ACB,
+,2021-08-11,Zhang Ran/Dai Fang,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-12,Zhang Ran/Dai Fang,8:55:00,18:00:00,8,0,MA/ACB,
+,2021-08-13,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-16,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,"1. Build LH China specific test case doc structure in Code Beamer.
+2. Edit 66 test cases and collate 18 parameters."
+,2021-08-17,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-18,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-19,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-20,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-23,Zhang Ran/Dai Fang,8:30:00,18:10:00,8,0,MA/ACB,"Preparation of chapters 1, 2, 3 and 4 of the LH China specific test case document in Codebeamer.	"
+,2021-08-24,Zhang Ran/Dai Fang,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-25,Zhang Ran/Dai Fang,8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-26,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-27,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-30,Zhang Ran/Dai Fang,8:30:00,18:10:00,8,0,BOSCH/sgh,"1. Modify the test case of OPS & APS；
+2. Define the parameters of LH China specific test case；
+3. Define the Obstacles in Codebeamer. "
+,2021-08-31,Zhang Ran/Dai Fang,8:46:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-01,Zhang Ran/Dai Fang,8:43:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-02,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-09-03,Zhang Ran/Dai Fang,8:55:00,18:10:00,8,0,BOSCH/sgh,
+,2021-08-02,Zhong Wei,8:25:00,17:30:00,8,0,MA/ACB,1、Sort out the Roadgraph test scenarios and improve the RG Scenario mind map. The first draft has been basically completed. 2、Obtain and learn CANoe and other related software independently
+,2021-08-03,Zhong Wei,8:33:00,17:36:00,8,0,MA/ACB,
+,2021-08-04,Zhong Wei,8:35:00,17:30:00,8,0,MA/ACB,
+,2021-08-05,Zhong Wei,8:45:00,17:45:00,8,0,MA/ACB,
+,2021-08-06,Zhong Wei,8:25:00,17:28:00,8,0,MA/ACB,
+,2021-08-09,Zhong Wei,8:45:00,17:32:00,8,0,MA/ACB,1、Roadgrap highway test scene combing. 2、Obtain and learn CANoe and other related software independently
+,2021-08-10,Zhong Wei,8:46:00,17:47:00,8,0,MA/ACB,
+,2021-08-11,Zhong Wei,8:43:00,17:41:00,8,0,MA/ACB,
+,2021-08-12,Zhong Wei,8:50:00,17:40:00,8,0,MA/ACB,
+,2021-08-13,Zhong Wei,8:30:00,17:31:00,8,0,MA/ACB,
+,2021-08-23,Zhong Wei,8:30:00,18:10:00,8,0,MA/ACB,Use RoadDesign to draw Roadgraph high-speed test scene
+,2021-08-24,Zhong Wei,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-25,Zhong Wei,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-26,Zhong Wei,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-27,Zhong Wei,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-30,Zhong Wei,8:33:00,18:04:00,8,0,MA/ACB,Use RoadDesign to draw Roadgraph high-speed test scene，Every Monday and Wednesday afternoon group meeting to discuss Roadgraph test scenarios
+,2021-08-31,Zhong Wei,8:36:00,17:48:00,8,0,MA/ACB,
+,2021-09-01,Zhong Wei,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-09-02,Zhong Wei,8:55:00,17:58:00,8,0,MA/ACB,
+,2021-09-03,Zhong Wei,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-02,Wu Peng,8:35:00,18:10:00,8,0,MA/ACB,"Tianjin business trip, learning Radar ABA, ASW, RCTA, SWA and other functional tests"
+,2021-08-03,Wu Peng,8:40:00,18:10:00,8,0,MA/ACB,
+,2021-08-04,Wu Peng,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-05,Wu Peng,8:45:00,18:10:00,8,0,MA/ACB,
+,2021-08-06,Wu Peng,8:45:00,18:10:00,8,0,MA/ACB,
+,2021-08-09,Wu Peng,8:30:00,18:10:00,8,0,MA/ACB,1. Use CANape software to analyze the relevant test messages of the PSF function
+,2021-08-10,Wu Peng,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-11,Wu Peng,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-12,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-13,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-16,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,Tianjin site (A+SUV_PSF+_Road_Test_Recording) Distance waring test
+,2021-08-17,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-18,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-19,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-20,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-23,Wu Peng,8:30:00,18:10:00,8,0,MA/ACB,Tianjin Test (A+SUV_PSF+_Road_Test_Recording) report analysis
+,2021-08-24,Wu Peng,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-08-25,Wu Peng,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-08-26,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-27,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-08-30,Wu Peng,8:30:00,18:10:00,8,0,MA/ACB,"1. Zhaoyuan (A6LMA_PCB test, it's sop related) test. 2. (A6LMA_PCB test, it's sop related) report analysis"
+,2021-08-31,Wu Peng,8:46:00,18:10:00,8,0,MA/ACB,
+,2021-09-01,Wu Peng,8:43:00,18:10:00,8,0,MA/ACB,
+,2021-09-02,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,
+,2021-09-03,Wu Peng,8:55:00,18:10:00,8,0,MA/ACB,

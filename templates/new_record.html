@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>New record</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h3>Add one new record to Effort</h3>
+    <form method="POST">
+        <input type="hidden" name="form-name" value="one-effort">
+        <label for="package">package:</label>
+        <input type="text" name="package" required><br>
+        <label for="date">date:</label>
+        <input type="date" name="date" required><br>
+        <label for="engineerName">engineerName:</label>
+        <input type="text" name="engineerName" required><br>
+        <label for="startTime">startTime:</label>
+        <input type="time" name="startTime" required><br>
+        <label for="endTime">endTime:</label>
+        <input type="time" name="endTime" required><br>
+        <label for="workingHours">workingHours:</label>
+        <input type="number" step="any" name="workingHours" required><br>
+        <label for="overtime">overtime:</label>
+        <input type="number" step="any" name="overtime"><br>
+        <label for="location">location:</label>
+        <input type="text" name="location"><br>
+        <label for="worklog">worklog:</label>
+        <input type="text" name="worklog"><br>
+        <input type="submit" value="Add this record to Effort">
+    </form>
+    <br>
+    <h3>Add one new record to Travel</h3>
+    <form method="POST">
+        <input type="hidden" name="form-name" value="one-travel">
+        <label for="engineerName">engineerName:</label>
+        <input type="text" name="engineerName" required><br>
+        <label for="date">date:</label>
+        <input type="date" name="date" required><br>
+        <label for="type">type:</label>
+        <input type="text" name="type" required><br>
+        <label for="city">city:</label>
+        <input type="text" name="city"><br>
+        <label for="description">description:</label>
+        <input type="text" name="description"><br>
+        <label for="invoiceType">invoiceType:</label>
+        <input type="text" name="invoiceType" required><br>
+        <label for="price">price:</label>
+        <input type="number" step="any" name="price" required><br>
+        <input type="submit" value="Add this record to Travel">
+    </form>
+    <br>
+    <p>csv template can be found in /app/persist/uplods<br>encoding should be utf-8</p>
+    <h3>Add many records to Effort/Travel</h3>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="form-name" value="many">
+        <label for="effort">Choose target table: Effort</label>
+        <input type="radio" name="tableName" value="effort">
+        <label for="travel">Travel</label>
+        <input type="radio" name="tableName" value="travel">
+        <input type="file" name="file" accept=".csv" required><br><br>
+        <input type="submit" value="Add many records">
+    </form>
+</div>
+{% endblock %}
+

@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    {% for nt_id in distinct_nt_id %}
+        <a href="/show_data/{{nt_id}}">{{nt_id}}</a>
+    {% endfor %}
+    <div class="form">
+        <h2>Select Engineer and Month</h2>
+        <form action="/show_data" method="POST">
+            <label for="cars">Select Engineer:</label>
+            <select name="engineers" id="engineers">
+                {% for engineer in engineers %}
+                    <option value="{{engineer[0]}}">{{engineer[0]}}</option>
+                {% endfor %}
+            </select>
+            <label for="months">Select Month:</label>
+            <select name="months" id="months">
+                {% for month in months %}
+                    <option value="{{month}}">{{month}}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value="show records">
+        </form>
+    </div>
+    <h2>Will echo records</h2>
+    <a href="/excel/travel/{{engineer}}/{{month}}"><h3>Download travel Excel report</h3></a>
+    <a href="/excel/effort/{{engineer}}/{{month}}"><h3>Download effort Excel report</h3></a>
+    <h2>Effort records for {{engineer}} at month {{month}}</h2>
+    <table>
+        <tr>
+            <th>package</th>
+            <th>date</th>
+            <th>start Time</th>
+            <th>end Time</th>
+            <th>working hours</th>
+            <th>overtime</th>
+            <th>location</th>
+            <th>worklog</th>
+            <th>Actions</th>
+        </tr>
+        {% for data in data_effort %}
+            <tr>
+                <td>{{ data[1] }}</td>
+                <td>{{ data[2] }}</td>
+                <td>{{ data[3] }}</td>
+                <td>{{ data[4] }}</td>
+                <td>{{ data[5] }}</td>
+                <td>{{ data[6] }}</td>
+                <td>{{ data[7] }}</td>
+                <td>{{ data[8] }}</td>
+                <td>
+                    <a href="/delete/{{data[0]}}">Delete</a>
+                    <a href="/update/{{data[0]}}">Update</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    <h2>Travel records for {{engineer}} at month {{month}}</h2>
+    <table>
+        <tr>
+            <th>date</th>
+            <th>type</th>
+            <th>city</th>
+            <th>description</th>
+            <th>invoice type</th>
+            <th>price</th>
+            <th>Actions</th>
+        </tr>
+        {% for data in data_travel %}
+            <tr>
+                <td>{{ data[1] }}</td>
+                <td>{{ data[2] }}</td>
+                <td>{{ data[3] }}</td>
+                <td>{{ data[4] }}</td>
+                <td>{{ data[5] }}</td>
+                <td>{{ data[6] }}</td>
+                <td>
+                    <a href="/delete/{{data[0]}}">Delete</a>
+                    <a href="/update/{{data[0]}}">Update</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
