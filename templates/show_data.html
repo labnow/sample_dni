@@ -12,7 +12,10 @@
     {% endfor %}
     <h1>Showing all records of {{nt_id}}</h1>
     {% for key, value in data_insight.items() %}
-    <h3>{{value|length}} {{key}}, they are {{value}}</h3>
+    <h3>{{value|length}} {{key}}, they are [
+        {% for row_num in value %}
+            <a href="/update/{{row_num}}">{{row_num}}, </a>
+        {% endfor %}]</h3>
     {% endfor %}
     <table>
         <tr>

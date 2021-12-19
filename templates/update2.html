@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Update record</h1>
+
+    <div class="form">
+        <form action="/update/{{id}}" method="POST">
+            {% for key, value in record_to_update_with_header.items() %}
+                {% if key == 'sop_date' %}
+                    <b>{{key}}:</b><input type="month" name="sop_date" value="{{value}}"><br>
+                {% elif key == 'invoice_date' %}
+                    <b>{{key}}:</b><input type="month" name="invoice_date" value="{{value}}"><br>
+                {% elif key == 'status' %}
+                    <b>{{key}}:</b><input type="text" name="status" value="{{value}}"><br>
+                {% elif key == 'terms' %}
+                    <b>{{key}}:</b><input type="text" name="terms" value="{{value}}"><br>
+                {% else %}
+                    <p><b>{{key}}:</b> {{value}}</p>
+                {% endif %}
+            {% endfor %}
+            <input type="submit" value="Update">
+        </form>
+    </div>
+</div>
+{% endblock %}

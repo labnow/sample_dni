@@ -4,6 +4,10 @@ import sqlite3
 from myfunctions import csv2database, json_to_python, pivot_travel, records2excel, dictionary, csv2database, excel_summary, excel_effort_summary, exceL_travel_summary, excel_to_json, check_data
 import os
 import zipfile
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField, PasswordField, BooleanField, ValidationError, TextAreaField
+from wtforms.validators import DataRequired, EqualTo, Length
+from wtforms.widgets import TextArea
 
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -12,6 +16,38 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
+@app.route('/admin')
+def admin():
+    return render_template('index.html')
+
+@app.route('/update/<int:row_num>', methods=['GET', 'POST'])
+def update(row_num):
+    import json
+    with open('all_dict.json', 'r') as j:
+        json_data = json.load(j)
+        # t_data = json_data['data'] # will update value of this dictionary
+        record_to_update = json_data['data'][str(row_num)]
+        header = json_data['header']
+        header[-4] = 'terms'
+        header[-3] = 'stop_date'
+        header[-2] = 'invoice_date'
+        header[-1] = 'status'
+        record_to_update_with_header = dict(zip(header, record_to_update))
+
+    if request.method == "POST":
+        record_to_update[-4] = request.form['terms']
+        record_to_update[-3] = request.form['sop_date']
+        record_to_update[-2] = request.form['invoice_date']
+        record_to_update[-1] = request.form['status']
+
+        json_data['data'][str(row_num)] = record_to_update
+
+        with open('all_dict.json', 'w') as json_file:
+            json.dump(json_data, json_file, ensure_ascii=False, indent=4)
+
+        return redirect('/show_data/all')
+    else:
+        return render_template("update2.html", record_to_update_with_header = record_to_update_with_header, id = row_num)
 
 @app.route('/read_excel', methods=['POST', 'GET'])
 def read_excel():
@@ -27,10 +63,6 @@ def read_excel():
         return '<h1>Looks Good!<h1><p>Add records to {}</p>'.format(status_to_return)
     else:
         return render_template('read_excel.html')
-
-@app.route('/dev')
-def dev():
-    return render_template('dev.html')
 
 @app.route('/show_data/<nt_id>')
 def show_data(nt_id):
@@ -130,10 +162,6 @@ def downloadAll():
 def delete(id):
     return render_template('404.html')
 
-@app.route('/update/<int:id>')
-def update(id):
-    return render_template('404.html')
-
 @app.route('/pivot/travel/<month>', methods=['POST', 'GET'])
 def pivot(month):
     if request.method == 'POST':
@@ -199,6 +227,21 @@ def summary_travel(month):
         return '<p>No records found</p>'
     file_to_return = exceL_travel_summary(month)
     return send_file(file_to_return, mimetype = 'xlsx', download_name= file_to_return, as_attachment = True)
+a = 'abc'
+class RecordForm(FlaskForm):
+
+    def __init__(self):
+        print(a)
+
+    # terms = StringField("Name", validators=[DataRequired()])
+    # username = StringField("Username", validators=[DataRequired()])
+    # email = StringField("Email", validators=[DataRequired()])
+    # favorite_color = StringField("Favorite Color")
+    # about_author = TextAreaField("About Author")
+    # password_hash = PasswordField('Password', validators=[DataRequired(), EqualTo('password_hash2', message='Passwords Must Match!')])
+    # password_hash2 = PasswordField('Confirm Password', validators=[DataRequired()])
+    # submit = SubmitField("Submit")
+    # abcd=self.abc
 
 if __name__ == "__main__":
     # app.run(debug=True)

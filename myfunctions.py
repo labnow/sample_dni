@@ -32,13 +32,14 @@ def excel_to_json(workbook_name, sheet_name, header_row, row_start, row_end, col
         all_dict = {'metadata':t_meta, 'header': table_header, 'data': data_dict}
         json_file_name = 'all_dict.json'
         with open(json_file_name, 'w') as json_file:
-            json.dump(all_dict, json_file)
+            json.dump(all_dict, json_file, ensure_ascii=False, indent=4)
             
         return json_file_name
     except Exception as e:
         return '<h1>error when reading excel</h1><p>{}</p>'.format(e)
 
 def check_data(file_to_check, nt_name):
+    import re
     with open(file_to_check, 'r') as j:
         json_data = json.load(j)
 
@@ -59,7 +60,7 @@ def check_data(file_to_check, nt_name):
             if None in value[-4:]:
                 rows_of_blank_record.append(key)
             try:
-                if int(value[-2].replace('.', '')) < int(base_month):
+                if int(re.sub(r'[-.]', '', value[-2])) < int(base_month):
                     rows_of_overdue_record.append(key)
             except:
                 rows_of_error_record.append(key)
